@@ -45,7 +45,7 @@ Launch Google Chrome, install the `Espruino Web IDE` ([extension](https://www.go
 
 ![Espruino Web IDE](images/espruino_web_ide.png)
 
-It's possible to program the board Over-The-Air by defining a hostname and configuring a connection to it. Use the [Wi-Fi](03_wifi.js) example and add its hostname `espruino.local:23` in the configuration (Espruino Web IDE > Settings > Communication > Connect over TCP Address).
+It's possible to program the board Over-The-Air by defining a hostname and configuring a connection to it. Use the [Wi-Fi](03_wifi.js) example and add its hostname `espruino.local:23` in the configuration (Espruino Web IDE > Settings > Communications > Connect over TCP Address).
 
 Sources
 - [Run Espruino on the NodeMCU devkit](https://blog.pedesen.de/2016/06/21/run-espruino-on-the-nodemcu-devkit/)
@@ -53,3 +53,4 @@ Sources
 - [Download Espruino](http://www.espruino.com/Download)
 - [CP210x USB to UART Bridge VCP Drivers](http://www.silabs.com/products/mcu/pages/usbtouartbridgevcpdrivers.aspx)
 - [Esptool.py](https://github.com/themadinventor/esptool)
+- [Tutorials and examples](http://www.espruino.com/Tutorials)
