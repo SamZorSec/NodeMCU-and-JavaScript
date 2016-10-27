@@ -5,6 +5,9 @@ This repository provides a little introduction into getting going with the NodeM
 | Title     							              	      | Description        											                              |
 |-----------------------------------------------|-----------------------------------------------------------------------|
 | [Hello World](01_hello_world.js)     				  | A simple **Hello World** example     					                       	|
+| [Blink](02_blink_led.js)     				          | A simple example to **flash** the integrated **LED**                	|
+| [Wi-Fi](03_wifi.js)     				              | A simple example to **connect** to a **Wi-Fi AP** and make the NodeMCU board available through **espruino.local**                   	|
+
 
 ## Installation
 I spent 2-3 days to make everything working, so I decided to provide a [compressed folder](firmware/Espruino_v1_87.zip) (esptool.py v1.2 & Espruino v1.87) with everything you need to flash the firmware.
@@ -41,6 +44,8 @@ screen /dev/tty.SLAB_USBtoUART 115200
 Launch Google Chrome, install the `Espruino Web IDE` ([extension](https://www.google.ch/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&sqi=2&ved=0ahUKEwiJ-qjbsvjPAhWDnBoKHcnuAfEQFggpMAE&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fespruino-web-ide%2Fbleoifhkdalbjfbobjackfdifdneehpo&usg=AFQjCNHyNk_XkpLYJ6DNByefI7znAP5lgg&bvm=bv.136593572,d.d2s)) and modify the Baud Rate to `115200` (Espruino Web IDE > Settings > Communications > Baud Rate).
 
 ![Espruino Web IDE](images/espruino_web_ide.png)
+
+It's possible to program the board Over-The-Air by defining a hostname and configuring a connection to it. Use the [Wi-Fi](03_wifi.js) example and add its hostname `espruino.local:23` in the configuration (Espruino Web IDE > Settings > Communication > Connect over TCP Address).
 
 Sources
 - [Run Espruino on the NodeMCU devkit](https://blog.pedesen.de/2016/06/21/run-espruino-on-the-nodemcu-devkit/)
