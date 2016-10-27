@@ -7,7 +7,7 @@ This repository provides a little introduction into getting going with the NodeM
 | [Hello World](01_hello_world.js)     				  | A simple **Hello World** example     					                       	|
 
 ## Installation
-I spent 2-3 days to make everything working, so I decided to provide a [compressed folder](firmware/Espruino_v1_87) (esptool.py v1.2 & Espruino v1.87) with everything you need to flash the firmware.
+I spent 2-3 days to make everything working, so I decided to provide a [compressed folder](firmware/Espruino_v1_87.zip) (esptool.py v1.2 & Espruino v1.87) with everything you need to flash the firmware.
 
 You probably need to install `pyserial` for using the `esptool.py`. It can be achieved with `sudo easy_install pyserial`(macOS), `sudo apt-get install python-serial`(Linux) or `sudo pip install pyserial`.
 
@@ -31,7 +31,7 @@ python esptool.py  --port /dev/tty.SLAB_USBtoUART --baud 115200 write_flash --ve
 
 ![Flash firmware](images/flash_firmware.png)
 
-After flashing the firmware, You may have to unplug/plug the NodeMCU to the computer. To test the installation process, You can use `Screen` and send some JavaScript code, like `process.memory()`or `digitalWrite(NodeMCU.D4, HIGH);` to turn on the built-in led.
+After flashing the firmware, you may have to unplug/plug the NodeMCU to the computer. To test the installation process, you can use `Screen` and send some JavaScript code, like `process.memory()`or `digitalWrite(NodeMCU.D4, HIGH);` to turn on the built-in led.
 ```
 screen /dev/tty.SLAB_USBtoUART 115200
 ```
