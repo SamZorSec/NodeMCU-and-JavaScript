@@ -1,4 +1,4 @@
-# NodeMCU with JavaScript
+# NodeMCU board (ESP8266) with JavaScript
 This repository provides a little introduction into getting going with the NodeMCU board (1.0/v2) and [Espruino](http://www.espruino.com) (JavaScript for Microcontrollers, v1.87). It provides an installation guide and some examples.
 
 ## Examples
@@ -7,6 +7,7 @@ This repository provides a little introduction into getting going with the NodeM
 | [Hello World](01_hello_world.js)     				  | A simple **Hello World** example     					                       	|
 | [Blink](02_blink_led.js)     				          | A simple example to **flash** the integrated **LED**                	|
 | [Wi-Fi](03_wifi.js)     				              | A simple example to **connect** to a **Wi-Fi AP** and make the NodeMCU board available through **espruino.local**                   	|
+| [HTTP Server(04_http_server.js)     				  | A simple **Web Server** to control the integrated **LED**             |
 
 
 ## Installation
